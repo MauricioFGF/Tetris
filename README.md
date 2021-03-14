@@ -28,4 +28,4 @@ Existem 4 repositórios principais, e um arquivo html, na "main". Dois desses re
   Concentra desde as dimensões dos tetrominos, até as funções de inicialização, pontuação, desenho de novas peças, controle, rotação, restart, game over e gerenciamento do score. Há, ainda, o instanciamento dos comandos e das funções dos botões "up", "down", "left" e "right".
 
 ## Link do site:
-- https://mauriciofgf.github.io/Tetris-js/
+- https://mauriciofgf.github.io/Software_Engineering_2021/
