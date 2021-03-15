@@ -3,6 +3,10 @@ document.addEventListener("DOMContentLoaded",() => {
     const buttonRight= document.querySelector('#btn-right')
     const buttonDown= document.querySelector('#btn-down')
     const buttonUp= document.querySelector('#btn-up')
+    const buttonLeft2= document.querySelector('#btn-left-2')
+    const buttonRight2= document.querySelector('#btn-right-2')
+    const buttonDown2= document.querySelector('#btn-down-2')
+    const buttonUp2= document.querySelector('#btn-up-2')
     const grid = document.querySelector(".grid")
     let squares = Array.from (document.querySelectorAll(".grid div"))
     const scoreDisplay = document.querySelector("#score")
@@ -161,7 +165,7 @@ document.addEventListener("DOMContentLoaded",() => {
     function rotate() {
         undraw()
         currentRotation ++
-        if(currentRotation=== current.length) { // if the current rotation gets to 4, make it go back to 0
+        if(currentRotation === current.length) { // if the current rotation gets to 4, make it go back to 0
             currentRotation = 0    
         }
         current = theTetrominoes[random][currentRotation]
@@ -292,6 +296,24 @@ document.addEventListener("DOMContentLoaded",() => {
     if (timerId) moveDown();
     })
 
+
+    
+    buttonUp2.addEventListener("click", () => {
+    if (timerId) rotate();
+    })
+
+    buttonLeft2.addEventListener("click", () => {
+    if (timerId) moveLeft();
+
+    })
+
+    buttonRight2.addEventListener("click", () => {
+    if (timerId) moveRight();
+    })
+
+    buttonDown2.addEventListener("click", () => {
+    if (timerId) moveDown();
+    })
 
 
 
