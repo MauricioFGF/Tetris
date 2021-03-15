@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded",() => {
     const scoreDisplay = document.querySelector("#score")
     const startBtn = document.querySelector("#start-button")
     const resetBtn = document.querySelector("#reset-button")
-    const musicPlayer = document.querySelector(".myAudio")
     const width = 10
     let acabou = false
     let nextRandom = 0
@@ -74,11 +73,7 @@ document.addEventListener("DOMContentLoaded",() => {
         current.forEach(index => {
             squares[currentPosition + index]. classList.add("tetromino")
             squares[currentPosition + index].style.backgroundColor = colors[random]
-            squares[currentPosition + index].style.borderStyle = 'outset'
-            squares[currentPosition + index].style.width = '36px'
-            squares[currentPosition + index].style.height = '36px'
-            squares[currentPosition + index].style.borderWidth = '2px'
-            squares[currentPosition + index].style.borderColor = "#3b444b"
+      
         })
 
     }
@@ -88,10 +83,7 @@ document.addEventListener("DOMContentLoaded",() => {
         current.forEach(index =>{
             squares[currentPosition + index].classList.remove("tetromino")
             squares[currentPosition + index].style.backgroundColor = ""
-            squares[currentPosition + index].style.borderStyle = ''
-            squares[currentPosition + index].style.width = '40px'
-            squares[currentPosition + index].style.height = '40px'
-            squares[currentPosition + index].style.borderWidth = ''
+           
         })
     }
     
@@ -199,30 +191,21 @@ document.addEventListener("DOMContentLoaded",() => {
         displaySquares.forEach(square => {
             square.classList.remove('tetromino')
             square.style.backgroundColor = ''
-            square.style.borderStyle = ''
-            square.style.borderWidth = '2px'
-            square.style.width = '40px'
-            square.style.height = '40px'
+ 
         })
         upNextTetrominoes[nextRandom].forEach( index => {
             displaySquares[displayIndex + index].classList.add('tetromino')
             displaySquares[displayIndex + index].style.backgroundColor = colors[nextRandom]
-            displaySquares[displayIndex + index].style.borderStyle = 'outset'
-            displaySquares[displayIndex + index].style.borderWidth = '2px'
-            displaySquares[displayIndex + index].style.width = '36px'
-            displaySquares[displayIndex + index].style.height = '36px'
-            displaySquares[displayIndex + index].style.borderColor = "#3b444b"
-            displaySquares[displayIndex + index].style.borderRadius = "0.1rem"
+            
             
         })
     }
 
     function playAndPause() {
-        tocarMusica()
+
         if (timerId) {
             clearInterval(timerId)
             timerId = null
-            pararMusica()
         } else {
             draw()
             timerId = setInterval(moveDown, 500)
@@ -235,23 +218,14 @@ document.addEventListener("DOMContentLoaded",() => {
         playAndPause()
     })
 
-    function erase(element) {
-        element.style.backgroundColor = ''
-        element.style.borderStyle = 'none'
-        element.borderWidth = ''
-        element.width = '40px'
-        element.height = '40px'
-    }
+
 
     function restartGame() {
         playAndPause()
         squares.forEach((square, i) => {
             square.classList.remove('tetromino');
             squares[i].style.backgroundColor = ''
-            squares[i].style.borderStyle = 'none'
-            squares[i].style.borderWidth = ''
-            squares[i].style.width = '40px'
-            squares[i].style.height = '40px'
+
             if (i < squares.length - width) {
                 square.classList.remove('taken');
             }
@@ -278,10 +252,7 @@ document.addEventListener("DOMContentLoaded",() => {
                     squares[index].classList.remove("taken")
                     squares[index].classList.remove("tetromino")
                     squares[index].style.backgroundColor = ""
-                    squares[index].style.borderStyle = ''
-                    squares[index].style.borderWidth = ''
-                    squares[index].style.width = '40px'
-                    squares[index].style.height = '40px'
+ 
                 })
                 const squaresRemoved = squares.splice(i,width)
                 squares = squaresRemoved.concat(squares)
@@ -294,25 +265,15 @@ document.addEventListener("DOMContentLoaded",() => {
     // game over
     function gameOver() {
         if(current.some( index => squares[currentPosition + index].classList.contains("taken"))) {
-            scoreDisplay.innerHTML = score +  "\nEnd Game"
+            scoreDisplay.innerHTML = "Final: " + score 
             clearInterval(timerId)
             acabou = true
-            pararMusica()
+           
         }
     }
 
 
-    function tocarMusica() {
-        musicPlayer.classList.add("playing")
-        musicPlayer.classList.remove("paused")
-        musicPlayer.play();
-    }
 
-    function pararMusica() {
-        musicPlayer.classList.add("paused")
-        musicPlayer.classList.remove("playing")
-        musicPlayer.pause()
-    }
 
     buttonUp.addEventListener("click", () => {
     if (timerId) rotate();

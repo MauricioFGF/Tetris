@@ -1,37 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu Mono", monospace;
+}
+
+
 body{
     background-color:#c7c7c7 ;
     background-image:url(../img/7.jpg);
     background-size:130%;
     background-repeat: no-repeat;
     overflow: hidden;
+    height: 100%;
 }
 
 .container-center{
     display: flex;
     justify-content: center;
-    
-    
+    height: 100%; 
 }
 
 .container{
     display: flex;
-    align-items:flex-end;
     padding: 3%;
 }
-
 
 .grid{
     border: solid 5px black;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    width: 400px;
-    height: 800px;
+    width: 410px;
+    height: 810px;
     display: flex;
     flex-wrap: wrap;
-    background-color: transparent;
-    
+    background-color: transparent;  
 }
 
+.tetromino {
+    border: 1px solid black;
+    border-radius: 1px;
+}
 
 .grid div{
     height: 40px;
@@ -41,22 +50,29 @@ body{
 }
 
 
+
 .contain{
     width: 300px;
     height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-
+.div-minigrid{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .mini-grid{
-    font-family: "Montserrat", sans-serif;
     border: solid 5px Black;
     border-radius: 1rem;
-    margin-left: 50px;
-    width: 160px;
-    height: 160px;
+    width: 170px;
+    height: 170px;
     display: flex;
     flex-wrap: wrap;
     background-color: transparent;
@@ -66,6 +82,16 @@ body{
 .mini-grid div{
     height: 40px;
     width: 40px;
+}
+
+
+.center-buttons{
+    height: 100%; 
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
 }
 
 
@@ -86,7 +112,7 @@ body{
     text-shadow: -1px -1px 0 #a84155;
     background: #d25068;
     border: 1px solid #d25068;
-    width: 12rem;
+    width: 192px;
     background-image: linear-gradient(to bottom, #f66c7b, #d25068);
     border-radius: 5px;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset,
@@ -95,7 +121,16 @@ body{
 }
 
 
+.btn-direction{
+    width: 192px;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+      
+}
+
 .btn{
+    margin-right: 5px;
     position: relative;
     text-align: center;
     color: #fff;
@@ -108,7 +143,8 @@ body{
     text-shadow: -1px -1px 0 #a84155;
     background: #d25068;
     border: 1px solid #d25068;
-    width: 2.5rem;
+    width: 59px;
+    height: 40px;
     background-image: linear-gradient(to bottom, #f66c7b, #d25068);
     border-radius: 5px;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset,
@@ -117,6 +153,48 @@ body{
 
 }
 
+
+.false-button{
+    background-color: transparent;
+    width: 59px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+
+.btn-mobile{
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    line-height: 23px;
+    font-size: 10px;
+    display: block;
+    cursor:pointer;
+    text-shadow: -1px -1px 0 #a84155;
+    background: #d25068;
+    border: 1px solid #d25068;
+    width: 410px;
+    height: 50px;
+    background-image: linear-gradient(to bottom, #f66c7b, #d25068);
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset,
+      0 -1px 0 rgba(255, 255, 255, 0.1) inset, 0 4px 0 #ad4257,
+      0 4px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+.btn-direction-mobile{
+    display: none;
+    flex-wrap: wrap;
+    width: 410px;
+    margin-top: 100px;
+}
+#btn-left-mobile , #btn-right-mobile {
+    width: 205px;
+}
 
 @media screen and (max-height: 880px){
     body{zoom: 80%;}
@@ -143,18 +221,14 @@ body{
     body{background-size: 150%;}
 }
 
-@media screen and (max-width: 825px){
+
+
+@media screen and (max-width: 750px){
+    body{zoom:40%;}
     .grid2{display: none;}
-    .container-center{justify-content: center;}
-    body{ background-image: none;}
-}
-
-@media screen and (max-width: 550px){
-    body{
-        zoom: 40%;
-        background-image: none;
-    }
-
+    .btn-direction-mobile{display: flex;}
+    .div-minigrid{display: none;}
+    .btn-direction{display: none;}
 }
 
 
