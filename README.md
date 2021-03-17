@@ -8,7 +8,7 @@
 
 ## Jogo:
 ### Objetivo do Jogo:
-Encaixar corretamente as peças que caem nas peças que já estão no jogo.
+#### Encaixar corretamente as peças que caem nas peças que já estão no jogo.
 ### Modo de Jogo:
 #### O usuário possui quatro opções para a movimentação das peças. São elas:
 ⬆️ Girar a peça;
