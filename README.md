@@ -6,6 +6,9 @@
 - Maurício Felipe
 - Wilson Wagner dos Santos Nascimento
 
+## Desafio:
+Recriar uma versão do jogo Tetris usando CSS, HTML e Javascript. Baseando-se no vídeo "Code Tetris: JavaScript Tutorial for Beginners" do canal freeCodeCamp.org do Youtube.
+
 ## Jogo:
 ### Objetivo do Jogo:
 #### Encaixar corretamente as peças que caem nas peças que já estão no jogo.
@@ -18,9 +21,6 @@
 ⬅️ Movê-la para a esquerda;
 
 ➡️ Movê-la para a direita.
-
-## Desafio:
-Recriar uma versão do jogo Tetris usando CSS, HTML e Javascript. Baseando-se no vídeo "Code Tetris: JavaScript Tutorial for Beginners" do canal freeCodeCamp.org do Youtube.
 
 ## Rodando o projeto localmente:
 - git clone https://github.com/MauricioFGF/Tetris
