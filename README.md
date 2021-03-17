@@ -9,7 +9,13 @@
 ## Desafio:
 Recriar uma versão do jogo Tetris usando CSS, HTML e Javascript. Baseando-se no vídeo "Code Tetris: JavaScript Tutorial for Beginners" do canal freeCodeCamp.org do Youtube.
 
-# Desenvolvimento:
+## Rodando o projeto localmente:
+#### git clone https://github.com/MauricioFGF/Tetris
+#### cd Tetris
+#### git init
+#### start index.html
+
+## Desenvolvimento:
 ### Dados Gerais:
 
 Utilizando-se do tutorial do Youtube, cada membro do grupo criou uma versão para o projeto. À partir dos resultados, selecionamos o melhor deles e adicionamos funcionalidades adicionais, como as setas em tela e a trilha sonora original do jogo, tocada em piano.
