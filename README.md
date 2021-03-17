@@ -11,9 +11,12 @@
 Encaixar corretamente as peças que caem nas peças que já estão no jogo.
 ### Modo de Jogo:
 #### O usuário possui quatro opções para a movimentação das peças. São elas:
-⬆️ Girar a peça
-⬇️ Acelerar a descida da peça
+⬆️ Girar a peça;
+
+⬇️ Acelerar a descida da peça;
+
 ⬅️ Movê-la para a esquerda;
+
 ➡️ Movê-la para a direita.
 
 ## Desafio:
