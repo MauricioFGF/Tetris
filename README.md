@@ -23,10 +23,10 @@
 Recriar uma versão do jogo Tetris usando CSS, HTML e Javascript. Baseando-se no vídeo "Code Tetris: JavaScript Tutorial for Beginners" do canal freeCodeCamp.org do Youtube.
 
 ## Rodando o projeto localmente:
-#### - git clone https://github.com/MauricioFGF/Tetris
-#### - cd Tetris
-#### - git init
-#### - start index.html
+- git clone https://github.com/MauricioFGF/Tetris
+- cd Tetris
+- git init
+- start index.html
 
 ## Link do site:
 - https://mauriciofgf.github.io/Tetris/
