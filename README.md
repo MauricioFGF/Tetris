@@ -35,7 +35,7 @@ Tetris é um jogo electrônico muito popular, desenvolvido por Alexey Pajitnov, 
 ➡️ Movê-la para a direita.
 
 
-## Link do site
+## Site do Projeto
 - https://mauriciofgf.github.io/Tetris/
 
 
