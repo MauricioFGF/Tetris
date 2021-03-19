@@ -9,7 +9,7 @@ Tetris é um jogo electrônico muito popular, desenvolvido por Alexey Pajitnov, 
 
 ### Language e Libs usadas
 #### Libs
-- [Jquery](https://jquery.com/)
+- [JQuery](https://jquery.com/)
 #### Language
 - [Js](https://www.javascript.com/)
 - [HTML](https://html.com/)
