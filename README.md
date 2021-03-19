@@ -1,7 +1,7 @@
 # Tetris: Uma releitura do clássico dos anos 80
 
-Construção do jogo Tetris para web.<br>
-Tetris é um jogo electrônico muito popular, desenvolvido por Alexey Pajitnov, Dmitry Pavlovsky e Vadim Gerasimov, e lançado em junho de 1984.
+Construção do jogo Tetris para Web.<br>
+Tetris é um jogo electrônico muito popular, desenvolvido por Alexey Pajitnov, Dmitry Pavlovsky e Vadim Gerasimov, e lançado 1984.
 
 ## Dev Notes
 ### Tech Stack
