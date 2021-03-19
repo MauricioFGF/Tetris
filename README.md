@@ -1,13 +1,18 @@
 # Tetris: Uma releitura do clássico dos anos 80
 
-## Equipe:
-- Gabriel Gomes de Melo
-- Matheus do Nascimento Araújo
-- Maurício Felipe
-- Wilson Wagner dos Santos Nascimento
+## Challenge:
+Construção do jogo Tetris para web.
 
-## Desafio:
-Recriar uma versão do jogo Tetris usando CSS, HTML e Javascript. Baseando-se no vídeo "Code Tetris: JavaScript Tutorial for Beginners" do canal freeCodeCamp.org do Youtube.
+## Tech Stack
+- [VScode](https://code.visualstudio.com/)
+
+## Language e Libs usadas
+  ### Libs
+   - [Jquery](https://jquery.com/)
+  ### Language
+   - [Js](https://www.javascript.com/)
+   - [HTML](https://html.com/)
+   - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 
 ## Jogo:
 ### Objetivo do Jogo:
@@ -22,11 +27,33 @@ Recriar uma versão do jogo Tetris usando CSS, HTML e Javascript. Baseando-se no
 
 ➡️ Movê-la para a direita.
 
-## Rodando o projeto localmente:
-- git clone https://github.com/MauricioFGF/Tetris
-- cd Tetris
-- git init
-- start index.html
+### Rodando o projeto localmente:
+- `git clone https://github.com/MauricioFGF/Tetris`
+- `cd Tetris`
+- `git init`
+- `start index.html`
 
-## Link do site:
+## Link do site
 - https://mauriciofgf.github.io/Tetris/
+
+
+## Credits
+- [Code Tetris: JavaScript Tutorial for Beginners](https://www.youtube.com/watch?v=rAUn1Lom6dw&ab_channel=freeCodeCamp.org)
+
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/gabrielgomesml"><img src="https://i.imgur.com/zOCjv53.jpeg" width="100px;" alt="Gabriel"/><br /><sub><b>Gabriel Melo</b></sub></a><br/>  
+    <td align="center"><a href="https://github.com/mna2"><img src="https://i.imgur.com/GdN832m.jpg" width="100px;" alt="Matheus"/><br /><sub><b>Matheus do Nascimento</b></sub></a><br/>
+     <td align="center"><a href="https://github.com/MauricioFGF"><img src="https://i.imgur.com/crcg9Sz.jpeg" width="100px;" alt="Mauricio"/><br /><sub><b>Mauricio Felipe</b></sub></a><br/>  
+    <td align="center"><a href="https://github.com/wilsonwagner"><img src="https://i.imgur.com/SgHPuw2.jpg" width="100px;" alt="Wilson"/><br /><sub><b>Wilson Santos</b></sub></a>
+  </tr>
+</table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+
+
+
