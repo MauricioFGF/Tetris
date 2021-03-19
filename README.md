@@ -1,18 +1,25 @@
 # Tetris: Uma releitura do clássico dos anos 80
 
-Construção do jogo Tetris para web.
+Construção do jogo Tetris para web.<br>
 Note: Tetris é um jogo electrônico muito popular, desenvolvido por Alexey Pajitnov, Dmitry Pavlovsky e Vadim Gerasimov, e lançado em junho de 1984.
 
-## Tech Stack
+## Dev Notes
+### Tech Stack
 - [VScode](https://code.visualstudio.com/)
 
-## Language e Libs usadas
-### Libs
+### Language e Libs usadas
+#### Libs
 - [Jquery](https://jquery.com/)
-### Language
+#### Language
 - [Js](https://www.javascript.com/)
 - [HTML](https://html.com/)
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+
+### Rodando o projeto localmente
+- `git clone https://github.com/MauricioFGF/Tetris`
+- `cd Tetris`
+- `git init`
+- `start index.html`
 
 ## Jogo
 ### Objetivo do Jogo
@@ -27,11 +34,6 @@ Note: Tetris é um jogo electrônico muito popular, desenvolvido por Alexey Paji
 
 ➡️ Movê-la para a direita.
 
-### Rodando o projeto localmente
-- `git clone https://github.com/MauricioFGF/Tetris`
-- `cd Tetris`
-- `git init`
-- `start index.html`
 
 ## Link do site
 - https://mauriciofgf.github.io/Tetris/
