@@ -1,23 +1,23 @@
 # Tetris: Uma releitura do clássico dos anos 80
 
-## Challenge:
 Construção do jogo Tetris para web.
+Note: Tetris é um jogo electrônico muito popular, desenvolvido por Alexey Pajitnov, Dmitry Pavlovsky e Vadim Gerasimov, e lançado em junho de 1984.
 
 ## Tech Stack
 - [VScode](https://code.visualstudio.com/)
 
 ## Language e Libs usadas
-  ### Libs
-   - [Jquery](https://jquery.com/)
-  ### Language
-   - [Js](https://www.javascript.com/)
-   - [HTML](https://html.com/)
-   - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+### Libs
+- [Jquery](https://jquery.com/)
+### Language
+- [Js](https://www.javascript.com/)
+- [HTML](https://html.com/)
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 
-## Jogo:
-### Objetivo do Jogo:
+## Jogo
+### Objetivo do Jogo
 #### Encaixar corretamente as peças que caem nas peças que já estão no jogo.
-### Modo de Jogo:
+### Modo de Jogo
 #### O usuário possui quatro opções para a movimentação das peças. São elas:
 ⬆️ Girar a peça;
 
@@ -27,7 +27,7 @@ Construção do jogo Tetris para web.
 
 ➡️ Movê-la para a direita.
 
-### Rodando o projeto localmente:
+### Rodando o projeto localmente
 - `git clone https://github.com/MauricioFGF/Tetris`
 - `cd Tetris`
 - `git init`
@@ -40,7 +40,7 @@ Construção do jogo Tetris para web.
 ## Credits
 - [Code Tetris: JavaScript Tutorial for Beginners](https://www.youtube.com/watch?v=rAUn1Lom6dw&ab_channel=freeCodeCamp.org)
 
-
+## Team
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
 <table>
